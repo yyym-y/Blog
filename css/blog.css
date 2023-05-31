@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    user-select: none;
+}
+.container{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9f9;
+}
+#ID{
+    width: 367px;
+    height: 158px;
+    margin: 0 auto;
+    background-image: url("https://gitee.com/qq3109778990/remem_pic/raw/master/img/BBBBB.png");
+    background-size: 100% 100%;
+}
+.text{
+    height:25px;
+    width: 367px;
+    margin: 0 auto;
+    margin-top: 7px;
+    color:#93a5a8;
+    text-align: center;
+    font-size: 17px;
+    font-style: italic;
+}
+.choice{
+    margin: 0 auto;
+    width : 700px;
+    height: 30px;
+    margin-top: 15px;
+}
+.one, .two, .there{
+    float: left;
+    width : 80px;
+    height: 30px;
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;;
+    border-width: 1px;
+    background-color: #E5E5E6;
+    border-color: #b2b2b2;
+    border-style: solid;
+}
+.one{
+    margin-left: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-style: none;
+    background-color: white
+} 
+.there{
+    border-top-right-radius: 10px;
+}
+.search{
+    width: 700px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 3px;;
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.inner{
+    width: 550px;
+    height: 35px;
+    border-radius: 3px;;
+    font-size: 17px;;
+    margin-left: 20px;;
+}
+.get{
+    width: 130px;
+    height: 40px;
+    font-size: 20px;;
+}
+.find{
+    width: 550px;
+    transform: translateX(145px);
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    position: absolute;
+    border-width: 1px;
+    border-color: rgba(48, 48, 48, 0.3);
+    border-style: solid;
+    border-top-style: none;
+}
+.center{
+    width: 700px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.center > div{
+    color: #5fafd2;
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.Left{
+    float: left;
+    margin-left: 10px;; 
+}
+.Right{
+    float: right;
+
+}
+.line{
+    width: 700px;
+    height: 2px;
+    background-color:#5399B8;
+    margin: 0 auto;
+    margin-top: 6px;
+    margin-bottom: px;
+}
+.Out{
+    margin: 0 auto;
+    width: 700px;
+    height: 55px;
+    margin-top : 10px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #7D7D7D;
+    border-radius: 7px;
+}
+.Left-bar{
+    width: 3px;
+    height: 35px;
+    background-color: gray;
+    margin-left: 15px;;
+    margin-right: 25px;;
+}
+a{
+    text-decoration: none;
+    color : black;
+}
+.show{
+    float: left;
+    height: 27px;
+    width: 550px;
+    border-width: 1px;
+    border-top-color: gray;
+    border-top-style: solid;
+    background-color: #e5e5e6;
+    display: flex;
+    align-items: center;
+}
+.show > a{
+    margin-left: 20px;
+    height: 27px;
+    width: 550px;
+}
